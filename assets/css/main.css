@@ -1,0 +1,41 @@
+.brand img {
+	width: auto;
+	height: 60px;
+}
+
+.brand span div.title {
+	font-size: 26px;
+	font-weight: 600
+}
+
+.brand span div.subtitle {
+	font-size: 21px;
+}
+
+.chatPop{
+	display: none;
+	bottom:30px; 
+	right:-72px;
+}
+
+.chatItem:hover .chatPop{
+	display: block;
+}
+
+.chatPopItems:hover{
+	color: gray;
+}
+
+.dropItems:hover{
+	color: gray;
+}
+
+.profileEdit{
+	opacity: 0.3;
+	top:28%; 
+	right: 41%;
+	transition: opacity 0.3s;
+}
+.profileEdit:hover{
+	opacity: 1;
+}
